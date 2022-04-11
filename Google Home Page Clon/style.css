@@ -1,0 +1,174 @@
+body
+{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+/* Navigation bar */
+
+#nav
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav a
+{
+    padding: 6px;
+    color: #202124;
+}
+#nav a:link
+{
+    text-decoration: none;
+}
+#nav a:hover
+{
+    text-decoration: underline;
+}
+#products
+{
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+    margin-right: 2px;
+    
+}
+#PP
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: -3px
+}
+.gmailImages
+{
+    margin-right: 10px;
+}
+
+/* Logo */
+#logo
+{
+    margin-top: 210px;
+    text-align: center;
+}
+#search
+{
+    text-align: center;    
+}
+
+
+#searchbar
+{
+    height:45px;
+    width: 550px;
+    margin: 20px;
+    padding: 0px 20px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+}
+#searchbar:hover
+{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+#searchbar:focus-within
+{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+}
+
+.searchbutton
+{
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+}
+
+.searchbutton:hover
+{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+}
+
+.searchbutton:focus
+{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+}
+/* Footnote bars*/
+
+#footnote
+{
+    font-size: 15px;
+    background-color: #f2f2f2;
+    color:#70757a;
+    position:absolute;
+    bottom: 0px;
+    right:0px;
+    left: 0px;
+}
+#footnote a
+{
+    margin-bottom: 15px;
+    color:#70757a;
+}
+#footnote a:link
+{
+    text-decoration: none;
+}
+#footnote a:hover
+{
+    text-decoration: underline;
+}
+#footnote a:active
+{
+    text-decoration: none;
+}
+
+#footnote_upper
+{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+#footnote_bottom
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 15px 40px;
+
+}
+
+#footnote_bottom_left
+{
+    display: flex;
+    justify-content: flex-start;
+}
+#footnote_bottom_left a
+{
+    margin-right: 10px;
+}
+
+#footnote_bottom_middle
+{
+    text-align: center;
+}
+
+#footnote_bottom_right
+{
+    display: flex;
+    justify-content: flex-end;
+}
+#footnote_bottom_right a
+{
+    margin-left: 10px;
+}
+
